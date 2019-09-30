@@ -1,9 +1,10 @@
 print ("BMI Calculator")
 
-weight = 65
+weight = float(input("Your weight kg:"))
 
-height = 1.73
+height = float(input("Your height m:"))
 
 BMI = weight / height ** 2
 
+print ("Your BMI =")
 print (BMI)
